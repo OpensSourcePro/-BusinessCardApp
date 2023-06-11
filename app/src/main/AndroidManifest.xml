@@ -65,9 +65,15 @@
         <activity
             android:name=".activity.IdcardFormStateActivity"
             android:exported="false" />
+        <activity android:name=".activity.CardListActivity" />
         <activity
             android:name=".activity.FriendDetailActivity"
             android:exported="false" />
+        <activity
+            android:name=".activity.AddCardActivity"
+            android:label="Add Card">
+        </activity>
+
         <activity
             android:name=".activity.IDCardDetailActivity"
             android:exported="false" />
